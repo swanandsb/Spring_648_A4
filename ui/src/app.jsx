@@ -164,7 +164,7 @@ class Product extends React.Component {
     return (
       <div id="mainDiv">
         <h1>My Company Inventory</h1>
-        <h3>Showing all availble products</h3>
+        <h3>Showing all available products</h3>
         <hr />
         <br />
         <ProductTable products={products} />
