@@ -2,7 +2,7 @@
 
 const { MongoClient } = require('mongodb');
 
-const url = process.env.DB_URL || 'mongodb+srv://cs648-a4.yxrk0.mongodb.net/inventory?retryWrites=true&w=majority';
+const url = process.env.DB_URL || 'mongodb+srv://fr22:fr22@cluster0.y5qo8.mongodb.net/inventory?retryWrites=true&w=majority';
 let client = new MongoClient(url, { useNewUrlParser: true });
 
 function testWithCallBacks(callBack) {
